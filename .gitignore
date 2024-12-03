@@ -1,0 +1,33 @@
+# Ignore build artifacts
+build/
+*.exe
+
+# Ignore output files
+output/
+
+# Ignore temporary or system files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore compiled object files
+*.o
+
+# Ignore IDE/editor-specific files
+.vscode/
+*.code-workspace
+
+# Ignore shell script execution artifacts
+*.sh~
+
+# Ignore asset files (optional, if they can be regenerated or are large)
+assets/
+
+# Ignore video files (optional, if they are large or not needed in the repo)
+*.mp4
+
+
+
+# Ignore personal documentation or walkthroughs (optional)
+WALKTHROUGH.txt
